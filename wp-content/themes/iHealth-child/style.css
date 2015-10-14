@@ -1,0 +1,16 @@
+/*
+Theme Name:     iHealth Child
+Theme URI:      http://www.marlucio.com
+Description:    Tema filho
+Author:         Marlúcio
+Author URI:     http://www.marlucio.com
+Template:       iHealth                             
+Version:        1.0
+*/
+
+@import url("../iHealth/style.css");
+@import url("../iHealth/css/screen.css");
+.sidebar {
+    margin: 0;
+    display: none;
+}

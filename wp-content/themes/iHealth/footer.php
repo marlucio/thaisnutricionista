@@ -1,0 +1,19 @@
+    <div class="span-24">
+	<div id="footer">Copyright &copy; <a href="<?php bloginfo('home'); ?>"><strong><?php bloginfo('name'); ?></strong></a>  - <?php bloginfo('description'); ?></div>
+    <?php /* 
+                    All links in the footer should remain intact. 
+                    These links are all family friendly and will not hurt your site in any way. 
+                    Warning! Your site may stop working if these links are edited or deleted 
+                    
+                    You can buy this theme without footer links online at https://flexithemes.com/buy/?theme=ihealth 
+                */ ?>
+    <div id="credits">Powered by <a href="http://wordpress.org/"><strong>WordPress</strong></a> | Designed by: <a href="http://backlinksvault.com">buy backlinks</a> | Thanks to <a href="http://virilityexreview.org/">http://virilityexreview.org/</a>, <a href="http://tower-28.com/">personal loan</a> and <a href="http://www.cheap-car-insurance-britain.co.uk/">car insurance quote</a></div>
+</div>
+</div>
+</div>
+<?php
+	 wp_footer();
+	echo get_theme_option("footer")  . "\n";
+?>
+</body>
+</html>
